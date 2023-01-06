@@ -527,8 +527,8 @@ install_github(&quot;DeveloperName/PackageName&quot;)</code></pre>
 </div>
 <div id="section-первые-простые-действия-в-r" class="section level2">
 <h2>Первые простые действия в R</h2>
-<p>Синтаксис R очень прост, и мы овладеть его основами буквально за
-несколько действий.</p>
+<p>Синтаксис R очень прост, и мы можем овладеть его основами буквально
+за несколько действий.</p>
 <p>Например, мы можем вводить в R какой-то текст - обязательно в
 кавычках или последовательность цифр, а также использовать R для простых
 арифметических действий.</p>
@@ -717,6 +717,8 @@ num1 + num2</code></pre>
 <h3>Несколько переменных</h3>
 <p>В R мы можем одновременно создать несколько переменных и присвоить им
 одно и то же значение.</p>
+<pre class="r"><code># Это можно сделать одной строкой
+var1 &lt;- var2 &lt;- var3 &lt;- 5</code></pre>
 <div class="tutorial-exercise" data-label="multiple" data-completion="1"
 data-diagnostics="1" data-startover="1" data-lines="0">
 <pre class="text"><code>var1 &lt;- var2 &lt;- var3 &lt;- 5
@@ -726,8 +728,6 @@ var2
 var3</code></pre>
 <script type="application/json" data-ui-opts="1">{"engine":"r","has_checker":false,"caption":"Упражнение"}</script>
 </div>
-<pre class="r"><code># Это можно сделать одной строкой
-var1 &lt;- var2 &lt;- var3 &lt;- 5</code></pre>
 </div>
 <div id="section-самостоятельная-работа" class="section level3">
 <h3>Самостоятельная работа</h3>
@@ -832,19 +832,19 @@ session$onSessionEnded(function() {
  
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz1-1", question = structure("Каким языком является R?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_2d08d81", 
+"character")), answers = list(structure(list(id = "lnr_ans_9e7e227", 
     option = "компилируемым", value = "компилируемым", 
     label = structure("компилируемым", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_8d3672d", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_2238a9d", 
     option = "процедурным", value = "процедурным", 
     label = structure("процедурным", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_d5bc535", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_91c7198", 
     option = "интерпретируемым", value = "интерпретируемым", 
     label = structure("интерпретируемым", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_677fb33", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_c189d12", 
     option = "структурным", value = "структурным", 
     label = structure("структурным", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
@@ -855,7 +855,7 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "quiz1-1-answer", question = "quiz1-1"), loading = NULL, 
-    random_answer_order = FALSE, allow_retry = TRUE, seed = 1031230295.5198, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1119335893.97877, 
     options = list()), class = c("learnr_radio", "tutorial_question"
 )), session = session)
 </script>
@@ -863,10 +863,10 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz1-2", question = structure("Может ли R быть интегрирована с Hadoop для обработки больших данных?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_bb2e271", 
+"character")), answers = list(structure(list(id = "lnr_ans_77aaf1e", 
     option = "да", value = "да", label = structure("да", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_fd2b471", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_23725e7", 
     option = "нет", value = "нет", label = structure("нет", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
@@ -876,23 +876,23 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "quiz1-2-answer", question = "quiz1-2"), loading = NULL, 
-    random_answer_order = FALSE, allow_retry = TRUE, seed = 171731869.920031, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1199077319.44164, 
     options = list()), class = c("learnr_radio", "tutorial_question"
 )), session = session)
 </script>
  
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz2-1", question = structure("На основе какого языка создан R?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_45fab15", 
+"character")), answers = list(structure(list(id = "lnr_ans_6420d02", 
     option = "Python", value = "Python", label = structure("Python", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_8c78b9c", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_54b8d3", 
     option = "Oracle", value = "Oracle", label = structure("Oracle", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_31d07c7", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_24bc89b", 
     option = "S", value = "S", label = structure("S", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_870dc70", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4855224", 
     option = "Java", value = "Java", label = structure("Java", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
@@ -902,7 +902,7 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "quiz2-1-answer", question = "quiz2-1"), loading = NULL, 
-    random_answer_order = FALSE, allow_retry = TRUE, seed = 545390812.246033, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 1033474225.01875, 
     options = list()), class = c("learnr_radio", "tutorial_question"
 )), session = session)
 </script>
@@ -910,18 +910,18 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label = "quiz2-2", question = structure("Страна, в которой был создан R?", html = TRUE, class = c("html", 
-"character")), answers = list(structure(list(id = "lnr_ans_a39c607", 
+"character")), answers = list(structure(list(id = "lnr_ans_c531403", 
     option = "Новая Зеландия", value = "Новая Зеландия", 
     label = structure("Новая Зеландия", html = TRUE, class = c("html", 
     "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_e3e2961", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_33ee235", 
     option = "Австралия", value = "Австралия", 
     label = structure("Австралия", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_d53caec", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_4ab142", 
     option = "США", value = "США", label = structure("США", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-"tutorial_quiz_answer")), structure(list(id = "lnr_ans_5b01635", 
+"tutorial_quiz_answer")), structure(list(id = "lnr_ans_72ec96c", 
     option = "Канада", value = "Канада", label = structure("Канада", html = TRUE, class = c("html", 
     "character")), correct = FALSE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
 "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
@@ -931,7 +931,7 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
 "character")), message = NULL, post_message = NULL), ids = list(
     answer = "quiz2-2-answer", question = "quiz2-2"), loading = NULL, 
-    random_answer_order = FALSE, allow_retry = TRUE, seed = 1111352397.98249, 
+    random_answer_order = FALSE, allow_retry = TRUE, seed = 40704894.4810453, 
     options = list()), class = c("learnr_radio", "tutorial_question"
 )), session = session)
 </script>
@@ -939,10 +939,10 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_radio", label 
 <script type="application/shiny-prerendered" data-context="server">
 learnr:::question_prerendered_chunk(structure(list(type = "learnr_checkbox", label = "checkbox", 
     question = structure("Каким способом можно установить библиотеку в R", html = TRUE, class = c("html", 
-    "character")), answers = list(structure(list(id = "lnr_ans_ef960ff", 
+    "character")), answers = list(structure(list(id = "lnr_ans_78fec3f", 
         option = "CRAN", value = "CRAN", label = structure("CRAN", html = TRUE, class = c("html", 
         "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
-    "tutorial_quiz_answer")), structure(list(id = "lnr_ans_5eefd04", 
+    "tutorial_quiz_answer")), structure(list(id = "lnr_ans_2277a42", 
         option = "GitHub", value = "GitHub", label = structure("GitHub", html = TRUE, class = c("html", 
         "character")), correct = TRUE, message = NULL, type = "literal"), class = c("tutorial_question_answer", 
     "tutorial_quiz_answer"))), button_labels = list(submit = structure("<span data-i18n=\"button.questionsubmit\">Submit Answer<\u002fspan>", html = TRUE, class = c("html", 
@@ -952,7 +952,7 @@ learnr:::question_prerendered_chunk(structure(list(type = "learnr_checkbox", lab
     "character")), incorrect = structure("Incorrect", html = TRUE, class = c("html", 
     "character")), message = NULL, post_message = NULL), ids = list(
         answer = "checkbox-answer", question = "checkbox"), loading = NULL, 
-    random_answer_order = TRUE, allow_retry = TRUE, seed = 511585151.261775, 
+    random_answer_order = TRUE, allow_retry = TRUE, seed = 1218085806.43278, 
     options = list()), class = c("learnr_checkbox", "tutorial_question"
 )), session = session)
 </script>
